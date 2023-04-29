@@ -1,0 +1,108 @@
+:root {
+  --bgcoler1: rgba(127, 127, 127, 0.5);
+  --bgcoler2: rgb(8, 7, 23);
+}
+* {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Gluten", cursive;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+body {
+  background-color: var(--bgcoler2);
+}
+header {
+  background-color: var(--bgcoler1);
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+}
+header h1 {
+  font-family: "Monoton", cursive;
+  padding: 5px;
+}
+fieldset {
+  margin-top: 15px;
+  width: 500px;
+  border-radius: 10px;
+}
+legend {
+  font-size: 20px;
+}
+input {
+  font-size: 25px;
+  color: black;
+  border-radius: 10px;
+}
+input[type="number"] {
+  width: 70%;
+}
+select {
+  font-size: 30px;
+  background-color: var(--bgcoler2);
+  color: #ffffff;
+  border-radius: 10px;
+}
+table td {
+  font-size: 20px;
+}
+input[type="button"] {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  transition: 0.5s;
+}
+input[type="button"]:hover {
+  background-color: #1f0727;
+  color: #8b2354;
+  border: 1px solid #fff;
+  transform: scale(0.9);
+}
+p {
+  text-align: center;
+}
+/**code phone
+/**code phone
+/**code phone
+/**code phone
+/**code phone
+/**code phone*/
+@media (max-width: 584px) {
+  header h1 {
+    font-size: 20px;
+  }
+  fieldset {
+    width: 300px;
+  }
+  legend {
+    font-size: 15px;
+  }
+  input {
+    font-size: 15px;
+    color: black;
+  }
+  select {
+    font-size: 15px;
+  }
+  table td {
+    font-size: 15px;
+  }
+  input[type="button"] {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 326px) {
+  table td {
+    font-size: 10px;
+  }
+  fieldset {
+    width: 200px;
+  }
+}
+@media (max-width: 266px) {
+  select {
+    width: 100px;
+  }
+}

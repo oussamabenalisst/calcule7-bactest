@@ -1,0 +1,229 @@
+body {
+  background-color: rgb(8, 7, 23);
+}
+h1 {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+header {
+  background-color: rgba(127, 127, 127, 0.5);
+  width: 100%;
+}
+#lo {
+  float: left;
+  height: 100px;
+}
+#lo1 {
+  float: right;
+  height: 100px;
+}
+#menu {
+  margin: 0 auto;
+}
+#menu,
+#menu ul {
+  padding: 0;
+  list-style: none;
+  width: 500px;
+  text-align: center;
+  margin-top: 100px;
+}
+#menu a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size: 40px;
+}
+#menu li {
+  transition: background-color 1s;
+  background-color: rgba(127, 127, 127, 0.5);
+  margin: 10px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  box-shadow: 3px 3px 3px #999;
+  border: solid 1px #333a40;
+}
+#menu li:hover {
+  background: #ffffff;
+  transform: scale(1.2);
+  z-index: 1000;
+}
+#menu a:hover {
+  color: black;
+}
+footer {
+  background-color: rgba(127, 127, 127, 0.5);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  clear: both;
+  margin-top: 100px;
+}
+#foot {
+  margin-top: 1000px;
+}
+footer p {
+  color: #fff;
+  font-size: 30px;
+}
+table {
+  float: left;
+  font-size: 50px;
+  height: 100%;
+  width: 1000px;
+  text-align: center;
+  color: #fff;
+  margin: 40px;
+}
+table th,
+td {
+  transition: background-color 0.5s;
+  background-color: #44434b;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+table th:hover,
+td:hover {
+  background-color: #fff;
+  color: #000000;
+}
+aside {
+  float: right;
+  width: 500px;
+  height: 500px;
+  background-color: #44434b;
+  border: solid white 0.5px;
+  border-radius: 15px;
+  margin: 40px;
+}
+aside p {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside input[type="button"] {
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: background-color 1s;
+}
+aside input[type="button"]:hover {
+  background-color: rgb(8, 7, 23);
+  color: #ffffff;
+}
+@media (max-width: 1050px) {
+  table {
+    clear: both;
+    margin: 0 auto;
+    font-size: 30px;
+    height: 500px;
+    width: 500px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  aside {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 510px) {
+  table {
+    clear: both;
+    margin: 0 auto;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+  }
+  aside {
+    clear: both;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 200px;
+    width: 300px;
+  }
+  aside input[type="button"] {
+    font-size: 10px;
+    height: 15px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  #lo {
+    height: 70px;
+  }
+  #lo1 {
+    height: 70px;
+  }
+}
+@media (max-width: 348px) {
+  table {
+    clear: both;
+    margin: 0 auto;
+    font-size: 25px;
+    height: 250px;
+    width: 250px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  aside {
+    clear: both;
+    margin-top: 5px;
+    height: 100px;
+    width: 200px;
+  }
+  aside input[type="button"] {
+    font-size: 10px;
+    height: 15px;
+    margin: 0 auto;
+  }
+  aside p {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 270px) {
+  table {
+    clear: both;
+    margin: 0 auto;
+    font-size: 15px;
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  aside input[type="button"] {
+    font-size: 5px;
+    height: 15px;
+    margin: 0 auto;
+  }
+  aside {
+    height: 100px;
+    width: 100px;
+  }
+  aside p {
+    font-size: 10px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  footer {
+    height: 30px;
+  }
+}
